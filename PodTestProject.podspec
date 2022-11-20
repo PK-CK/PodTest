@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PodTestProject'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'PodTestProject is first iOS Module Project'
 
 # This description is used to generate tags and improve search results.
@@ -25,21 +25,23 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'pankun' => 'pankun0611@163.com' }
-  s.source           = { :git => 'https://github.com/pankun/PodTestProject.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:PK-CK/PodTest.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.requires_arc          = true
   s.ios.deployment_target = '10.0'
-  s.frameworks            = "UIKit"
+  s.frameworks = 'UIKit', 'Foundation'
   s.source_files = 'PodTestProject/Classes/**/*'
-  
+  s.resources    = 'PodTestProject/Assets/**/*'
+  #忽略文件
+  #s.exclude_files = ''
   # s.resource_bundles = {
   #   'PodTestProject' => ['PodTestProject/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-#   s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'AFNetworking', '~> 2.3'
 #   s.dependency 'Specta'
 #   s.dependency 'Expecta',
 #   s.dependency 'FBSnapshotTestCase'
