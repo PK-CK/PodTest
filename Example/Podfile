@@ -12,5 +12,6 @@ target 'PodTestProject_Example' do
     pod 'Expecta'
     pod 'FBSnapshotTestCase'
     pod 'Expecta+Snapshots'
+    pod 'AFNetworking', '~> 2.3'
   end
 end

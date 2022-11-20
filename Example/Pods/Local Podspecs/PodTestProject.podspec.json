@@ -1,0 +1,24 @@
+{
+  "name": "PodTestProject",
+  "version": "1.0.0",
+  "summary": "PodTestProject is first iOS Module Project",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/PK-CK/PodTest.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pankun": "pankun0611@163.com"
+  },
+  "source": {
+    "git": "https://github.com/pankun/PodTestProject.git",
+    "tag": "1.0.0"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "10.0"
+  },
+  "frameworks": "UIKit",
+  "source_files": "PodTestProject/Classes/**/*"
+}
